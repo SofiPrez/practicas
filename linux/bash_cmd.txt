@@ -1,0 +1,33 @@
+#Comandos basicos de la consola linux
+
+ls -> lista los archivos de la ruta actual (posición) actual
+cd [directorio] -> cambia de directorio
+mkdir [directorio] -> crea un directorio 
+touch [ archivo]-> crea un archivo
+cat [ archivo] muestra el contenido de un archivo (sin abrirlo) 
+nano [archivo] -> abre el archvo con el editot de texto nano 
+rm [archivo] -> elimina el archivo
+cd .. -> vuelve al directorio anterior
+rm -r directorio -> borra recursivamente todos los archivos dentro del directorio
+
+#Atajos de teclado en la consola linux
+ctrl +l -> limpia la consola
+ctrl +c -> interrumpe cialquier ejecución
+
+
+
+# Uso basico de editor de texto nano
+
+nano [archivo] -> abre el archivo con el editor de texto nano 
+ctrl+o(dentro de nano)-> guarda el texto escrito
+ctrl+x (dentro de nano) -> sale de nano
+ctrl+w (escribir palabra y tocar enter) -> busca la primera aparicion de la palabra
+
+#Uso básico de git
+
+git clone [url de un repositorio git] -> clona un repositorio git
+git status -> muesta el estados de los archivos de la carpeta (repositorio)
+git add . -> agrega al repositorio local de todos los archivos desde mi posición
+git commit -m "[mensaje]" -> commitea los cambios realizados en el repositorio local con el mensaje
+git push -> sube los cambios commiteados   
+ 
